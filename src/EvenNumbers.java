@@ -9,10 +9,9 @@ class EvenNumbers{
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
 
-        for (int i=2; i<=n; i+=2){ //i=2 4 6 8 10 ...
-            System.out.print(i);
+        for (int i=0; i<=n; i+=2){ //i=0 2 4 6 8 10 ...
+            System.out.print(i + " ");
         }
         System.out.println();
-
     }
 }
