@@ -14,9 +14,13 @@ class ArrayClassMethods{
         //String a[] = {"Learn", "Coding", "Keypoints", "Education"};
         int a[] = {1,2,3,4,5};
         //Arrays is a class in java in util package which uses toString method that accepts array variable as arguement.
-        System.out.println(Arrays.toString(a));
+        System.out.println(Arrays.toString(a));  //works best even with integers
 
         System.out.println(Arrays.asList(a));  //prints the ref value of array
         System.out.println(a);
+
+        //accepts multi-dim array as parameter while toString and asList work in single dim arrays
+        int arr[][] = {{10,20}, {30,40}, {50,60}};
+        System.out.println(Arrays.deepToString(arr));
     }
 }

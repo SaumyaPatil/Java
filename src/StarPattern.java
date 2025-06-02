@@ -1,0 +1,42 @@
+class StarPattern{
+    public static void main(String[] args) {
+
+        //Star pattern 1
+//        int i,j;
+//        for (i = 1; i <=5 ; i++) {      //rows
+//            for (j = 1; j <= i; j++) {     //cols
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+        //Star pattern 2
+//        int i,j;
+//        for (i = 1; i <=5 ; i++) {      //rows
+//            for (j = 1; j >= i; j--) {     //cols
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+        //The above pattern can also be printed as
+//        int i,j;
+//        for (i = 5; i >=1 ; i--) {      //rows
+//            for (j = 1; j <= i; j++) {     //cols
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+        int i,j,k;
+        for (int i = 1; i <= 5; i++) {
+            for (int j = i; j < 5; j++) {
+                System.out.println(" ");
+                for (int k = 1; k <= i ; k++) {    //col
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+        }
+    }
+}
