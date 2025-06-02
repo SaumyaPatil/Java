@@ -28,15 +28,30 @@ class StarPattern{
 //            System.out.println();
 //        }
 
-        int i,j,k;
-        for (int i = 1; i <= 5; i++) {
-            for (int j = i; j < 5; j++) {
-                System.out.println(" ");
-                for (int k = 1; k <= i ; k++) {    //col
-                    System.out.print("*");
-                }
-                System.out.println();
+        //Star pattern 3
+//        int i,j,k;
+//        for (i = 1; i <= 5; i++) {
+//            for (j = i; j < 5; j++) {
+//                System.out.print(" ");
+//            }
+//
+//            for (k = 1; k <= i ; k++) {    //col
+//                System.out.print("*");
+//            }
+//
+//            System.out.println();
+//        }
+
+        //Star pattern 4
+        int i, j, k;
+        for (i = 1; i <= 5 ; i++) {     //rows
+            for (j = 1; j <= i ; j++) {     //space
+                System.out.print(" ");
             }
+            for (k = i; k <= 5 ; k++) {   //cols
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
 }
