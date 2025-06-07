@@ -26,5 +26,4 @@ class InstanceVsStatic{
     public static void main(String[] args) {
         InstanceVsStatic obj = new InstanceVsStatic();
     }
-
 }
