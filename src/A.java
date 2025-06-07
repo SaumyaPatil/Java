@@ -1,13 +1,26 @@
-class A{
+class Constructor{
 
-    static void show(){
-        System.out.println("Hello");
+    int a;
+    String name;
+
+    //Initialises value in instance variable. Instance variable is part of object.
+    Constructor(){
+        a=0;
+        name=null;
     }
 
-    public static void main(String []a){
+    void Show(){
+        System.out.println(a+" "+name);
+    }
 
-        //System is a pre-defined class while print is a pre-defined method used to print any text message on the output screen.
-        System.out.print(a[1]);
+    public static void main(String[] args) {
+
     }
 }
 
+class A{
+    public static void main(String[] args) {
+        Constructor ref = new Constructor();
+        ref.Show();
+    }
+}
