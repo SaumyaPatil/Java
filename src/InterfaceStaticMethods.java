@@ -24,6 +24,10 @@ class Demo implements A{
     public static void Show(){
         System.out.println("Error");
     }
+
+    void disp(){
+        System.out.println("There is this method here!!!");
+    }
 }
 
 class InterfaceStaticMethods{
