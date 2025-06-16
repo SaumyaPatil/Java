@@ -13,4 +13,4 @@ class UserInput{
 }
 
 //This is how you can take input from user at runtime
-
+//You need to import scanner class package to use the class, create its object and use its methods.
