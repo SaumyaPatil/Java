@@ -6,7 +6,8 @@ interface A{
     }
 
     //You can write main methods inside interface as main method is static in java
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println("Learn Coding!");
     }
 
@@ -14,18 +15,20 @@ interface A{
     //and define method there.
 
     //When we have no such abstract method in interface, then we need not have implementing class.
-    void disp();
+//    void disp();
 }
 
 class Demo implements A{
 
     //Static methods cannot be annotated with @Override
     //@Override
-    public static void Show(){
+    public static void Show()
+    {
         System.out.println("Error");
     }
 
-    void disp(){
+    void disp()
+    {
         System.out.println("There is this method here!!!");
     }
 }
@@ -34,6 +37,7 @@ class InterfaceStaticMethods{
     public static void main(String[] args) {
         A.Show();
         Demo d = new Demo();
-        d.Show();
+        //d.Show();
+        d.disp();
     }
 }
