@@ -12,6 +12,5 @@ class IncreDecre{
         System.out.println(a--); //12  (11)
         System.out.println(--a); //10
 
-
     }
 }
