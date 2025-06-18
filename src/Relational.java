@@ -1,4 +1,3 @@
-
 // Relational Operators
 
 import java.util.Scanner;
@@ -17,4 +16,3 @@ class Relational{
         System.out.println("true/false"+(a!=b));
     }
 }
-
