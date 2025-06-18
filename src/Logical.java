@@ -1,4 +1,3 @@
-
 //Logical operator example!
 
 class Logical{
@@ -10,14 +9,12 @@ class Logical{
         System.out.println((10<5) && (2<1));    //false
 
         System.out.println("Logical OR ");
-        System.out.println((10>5) && (2>1));    //true
-        System.out.println((10>5) && (2<1));    //true
-        System.out.println((10<5) && (2<1));    //false
+        System.out.println((10>5) || (2>1));    //true
+        System.out.println((10>5) || (2<1));    //true
+        System.out.println((10<5) || (2<1));    //false
 
         System.out.println("Logical NOT ");
         System.out.println(!(10>5));     //false
         System.out.println(!(10<5));     //true
-
-
     }
 }
