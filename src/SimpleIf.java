@@ -1,4 +1,3 @@
-
 //Simple if statement
 
 import java.util.Scanner;
