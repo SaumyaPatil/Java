@@ -9,7 +9,7 @@ class While{
         n = sc.nextInt();
 
         while(n>=0){
-            //This loop may run infinite times
+            //This loop runs infinite times
             System.out.println("Learn coding ");
         }
 
@@ -32,4 +32,3 @@ class While{
 
     }
 }
-
